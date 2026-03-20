@@ -1,2 +1,16 @@
-# javascript-notes-3
-JavaScript Lecture 3 - Loops and Practice Notes
+# JavaScript Lecture 3 Notes
+
+This repository contains my JavaScript Lecture 3 notes.
+
+## Topics Covered
+- Loops in JS
+- Strings in JS
+- Template Literals
+- String Methods
+- Practice Questions
+
+## Live Demo
+https://vikaspawar-dev.github.io/javascript-lecture-3/
+
+## Author
+Vikas Pawar
