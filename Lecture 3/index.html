@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 3. Loops in JS</title>
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a, #020617);
+            color: #e2e8f0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #38bdf8;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        hr {
+            border: 1px solid #334155;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            background-color: #1e293b;
+            padding: 10px;
+            border-left: 4px solid #22c55e;
+            border-radius: 5px;
+        }
+
+        pre {
+            background-color: #020617;
+            color: #facc15;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #334155;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 15px;
+            text-decoration: none;
+            background-color: #38bdf8;
+            color: #020617;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background-color: #0ea5e9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>3. Loops in JS</h1>
+    <hr>
+
+    <p>Loops are used to execute a piece of code again & again</p>
+<h4 class="while">For Loop</h4>
+    <pre>
+for (let i = 1; i <= 5; i++) {
+    console.log("apna college");
+}
+    </pre>
+
+     <h4 class="while">While Loop</h4>
+    <pre>
+        while (Condition){
+            /do some work
+        }
+    </pre>
+    <br>
+    <h4 class="for-of">for-of   loops</h4>
+    <pre>
+        for (let val of strVar){
+            // do some work
+        }
+    </pre>
+    <br>   <h4 class="for-in">for-in   loops</h4>
+    <pre>
+        for (let key in objVar ){
+            // do some work
+        }
+    </pre>
+
+    <a href="http://127.0.0.1:5500/Lecture%203/Loops.html">Loops</a>
+    <br>
+<h4>Practice Quations: </h4>
+<p>Qs 1. Print all even numbers from 0 to 100</p>
+<br>
+<p>Qs 2. Create a game where you start with any random game number. Ask the user to keep
+guessing the game number until the user enters correct value.
+
+</p>
+<a href="http://127.0.0.1:5500/Lecture%203/PracticeQAns.html"> Ans 1, 2</a>
+
+<br>
+<h1>Strings in JS</h1>
+
+    <p>String is a sequence of characters used to represent text</p>
+
+    <h2>Create String</h2>
+    <p>let str = "Apna College";</p>
+
+    <h2>String Length</h2>
+    <p>str.length</p>
+
+    <h2>String Indices</h2>
+    <p>str[0], str[1], str[2]</p>
+
+    <a href="http://127.0.0.1:5500/Lecture%203/StringsInJs.html">Strings in JS</a>
+    <br>
+      <h1>Template Literals in JS</h1>
+
+    <p>A way to have embedded expressions in strings</p>
+
+    <p>`this is a template literal`</p>
+
+    <p ><big>String Interpolation</big></p>
+
+<p>To create strings by doing substitution of placeholders</p>
+
+<p>`string text ${expression}string text`</p>
+
+<a href="http://127.0.0.1:5500/Lecture%203/TemplateL.html">Template Literals in JS</a>
+<br>
+<div class="container">
+        <h1>String Methods in JS</h1>
+
+        <p>These are built-in functions to manipulate a string</p>
+
+        <p><code>str.toUpperCase( )</code></p>
+
+        <p><code>str.toLowerCase( )</code></p>
+
+        <p><code>str.trim( )</code> // removes whitespaces</p>
+        
+        <p><code>str.slice(start, end?) // returns part of string</code></p>
+        
+        <p><code>str1.concat( str2 ) // joins str2 with str1</code></p>
+        
+        <p><code>str.replace( searchVal, newVal )</code></p>
+        
+        <p><code>str.charAt( idx )</code></p>
+    </div>
+    <a href="http://127.0.0.1:5500/Lecture%203/StringMethods.html">String Methods in JS</a>
+
+    <br>
+    <h1>Let’s Practice</h1>
+
+        <p>Start username with @, followed by their full name and ending with the fullname length.</p>
+
+        <p><strong>Qs1.</strong> Prompt the user to enter their full name. Generate a username for them based on the input.</p>
+
+        <p><strong>Example:</strong></p>
+        <p>user name = "vikaspawar"</p>
+        <p>username should be "@vikaspawar13"</p>
+<a href="http://127.0.0.1:5500/Lecture%203/PracticeQs.html">Let’s Practice Qs 1</a>
+
+</body>
+</html>
