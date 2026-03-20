@@ -10,7 +10,7 @@ This repository contains my JavaScript Lecture 3 notes.
 - Practice Questions
 
 ## Live Demo
-https://vikaspawar-dev.github.io/javascript-lecture-3/
+https://vikaspawar-dev.github.io/javascript-notes-3/
 
 ## Author
 Vikas Pawar
